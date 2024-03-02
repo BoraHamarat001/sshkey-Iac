@@ -1,6 +1,7 @@
 provider "aws" {
   region = "eu-central-1"
-  shared_credentials_files = ["/Users/rwagh/.aws/credentials"]
+  //access_key = ""
+  //secret_key = ""
 }
 
 resource "tls_private_key" "terrafrom_generated_private_key" {
